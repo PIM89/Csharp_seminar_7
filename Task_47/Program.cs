@@ -29,7 +29,7 @@ void FillArray(double[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = Math.Round(new Random().NextDouble() * (10 + 3) - (3), 2); // вещественные числа в интервале от -2 до 5
+            array[i, j] = Math.Round(new Random().NextDouble() * (10 + 5) - (5), 2); // вещественные числа в интервале от -5 до 10
         }
     }
 
