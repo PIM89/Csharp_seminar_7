@@ -84,7 +84,7 @@ void FindElement(int[,] array, int[] mas)
             Console.WriteLine("Такой элемент отсутствует");
         }
     }
-
+    else Console.WriteLine("Введены не корректные данные!");
 }
 
 FillArray(array);
